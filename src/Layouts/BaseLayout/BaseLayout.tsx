@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./BaseLayout.css"
 
  interface BaseLayoutProps {
     children: React.ReactNode;

@@ -1,5 +1,5 @@
 nav {
-    width: 50%;
+    width: 70%;
 }
 
 nav > ul {
@@ -17,6 +17,10 @@ a{
     color:inherit;
 }
 
+nav > ul > li > a:hover {
+    border-bottom: 1px solid whitesmoke;
+}
+
 .active{
-    color: blue;
+    border-bottom: 1px solid whitesmoke;
 }
