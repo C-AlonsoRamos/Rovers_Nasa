@@ -1,0 +1,12 @@
+.video {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video > iframe {
+    width: 50%;
+    height: 80%;
+    border-radius: 0.5rem;
+}

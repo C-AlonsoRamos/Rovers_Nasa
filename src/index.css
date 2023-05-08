@@ -2,15 +2,16 @@
     margin: 0;
     padding:0;
     list-style: none;
+    text-decoration: none;
     box-sizing: border-box;
 }
 
 
 body {
-    background-image: url("https://res.cloudinary.com/dy4mossqz/image/upload/v1683556483/img/starry-sky-milky-way-stars-hd-wallpaper-preview_ucmj9o.jpg");
+    background-image: url("https://res.cloudinary.com/dy4mossqz/image/upload/v1683576735/img/photo-1488866022504-f2584929ca5f_t8tc6s.avif");
+    background-position: left;
+    color:white;
     background-repeat: no-repeat;
-    background-size: cover;
-    color:whitesmoke;
 }
 
 main {

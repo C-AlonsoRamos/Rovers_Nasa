@@ -12,9 +12,10 @@ nav > ul {
 }
 
 a{
-    text-decoration: none;
     text-transform: uppercase;
     color:inherit;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 nav > ul > li > a:hover {
@@ -22,5 +23,5 @@ nav > ul > li > a:hover {
 }
 
 .active{
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid #FC3D21;
 }

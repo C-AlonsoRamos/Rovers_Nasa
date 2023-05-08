@@ -6,10 +6,10 @@ const Nav: React.FC  = () => {
     <nav>
         <ul>
             <li>
-              <NavLink to= "/photoDay">PhotoDay</NavLink>
+              <NavLink to= "/rovers">Rovers</NavLink>
             </li>
             <li>
-              <NavLink to= "/rovers">Rovers</NavLink>
+              <NavLink to= "/photoDay">Astronomy Picture</NavLink>
             </li>
             <li>
               <NavLink to= "/about">About</NavLink>

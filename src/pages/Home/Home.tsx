@@ -1,9 +1,12 @@
 import React from 'react'
 import './Home.css'
- const Home = () => {
+ const Home: React.FC = () => {
   return (
     <main>
-      <h1>Home</h1>
+      <div className='video'>
+         <iframe src="https://www.youtube.com/embed/upLM5yGVKLg" title="Juntos perseveramos: El aterrizaje del rover Perseverance en Marte"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+      </div>
+     
     </main>
   )
 }
