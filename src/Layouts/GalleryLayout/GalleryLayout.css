@@ -1,0 +1,12 @@
+.gridGalleryLayout {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(5, 11rem);
+  grid-auto-rows: minmax(10rem, auto);
+  gap: 1rem;
+  max-height: 65vh;
+ 
+ 
+}
+
+  

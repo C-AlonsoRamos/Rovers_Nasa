@@ -50,7 +50,7 @@ const PhotoDay = () : JSX.Element => {
           <input className="form-date" type="date" id="photo-day" onChange={inputSearch} />
         </article>
           {date > today ? (
-          <h2>Please choose a previous date</h2>
+          <h3>Please choose a previous date</h3>
            ) : (
           <Figure data={apod} />
             )}

@@ -1,4 +1,4 @@
-figure{
+.photo{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -7,14 +7,14 @@ figure{
 }
 
 
-figure > img{
+.photo > img{
     width: 21.25rem;
     height: 21.25rem;
     border-radius: 0.5rem;
     transition: all ease-in-out 0.4s;
 }
 
-figure > img:hover{
+.photo > img:hover{
     scale: 1.1;
 }
 

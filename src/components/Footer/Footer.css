@@ -1,8 +1,10 @@
 footer {
     display: flex;
-    justify-content:space-around;
+    justify-content:end;
     text-align: center;
     align-items: center;
+    gap:1rem;
+    padding-right: 1rem;
 }
 
 .footer-social {

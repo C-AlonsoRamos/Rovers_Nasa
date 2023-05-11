@@ -19,9 +19,9 @@ a{
 }
 
 nav > ul > li > a:hover {
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid #ff0000;
 }
 
 .active{
-    border-bottom: 1px solid #FC3D21;
+    border-bottom: 1px solid #ff0000;
 }

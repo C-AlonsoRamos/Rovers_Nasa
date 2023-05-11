@@ -1,0 +1,10 @@
+.imgRover > img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 0.4s;
+}
+
+.imgRover > img:hover {
+scale: 1.1;
+}

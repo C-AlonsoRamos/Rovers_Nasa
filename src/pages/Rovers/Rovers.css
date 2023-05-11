@@ -1,0 +1,135 @@
+.marsRovers {
+    display:flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.marsRovers > .sectionSearch {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:2rem;
+}
+
+.marsRovers > .sectionSearch > .rovers {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap:1rem
+}
+
+.marsRovers > .sectionSearch > .rovers > .roverName {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap:1rem;
+}
+
+.marsRovers > .sectionSearch > .rovers > .roverName > img {
+        width: 1.875rem;
+        filter: invert(90%);
+}
+
+.marsRovers > .sectionSearch > .cameras {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap:1rem
+}
+
+.marsRovers > .sectionSearch > .cameras > .cameraName{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:1rem;
+}
+
+.marsRovers > .sectionSearch > .cameras > .cameraName > img {
+    width: 1.875rem;
+    filter: invert(90%);
+}
+
+.marsRovers > .sectionSearch > .sol {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap:1rem
+}
+
+.marsRovers > .sectionSearch > .sol > input {
+    width: 12.5rem;
+}
+
+.marsRovers > .sectionSearch > .sol > input:hover{
+    cursor: pointer;
+}
+
+.marsRovers > .sectionSearch > .sol > .solRange {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:1rem;
+}
+
+.marsRovers > .sectionSearch > .sol > .solRange > img {
+    width: 1.875rem;
+    filter: invert(90%);
+}
+
+.marsRovers > .photosRover {
+    overflow-y: scroll;
+    overflow-x:none;
+    display: flex;
+}
+
+.photosRover::-webkit-scrollbar {
+    width: .625rem;
+  }
+  
+  .photosRover::-webkit-scrollbar-track {
+    background: inherit;
+  }
+  
+  .photosRover::-webkit-scrollbar-thumb {
+    background: #ff0000;
+    border-radius: .3125rem;
+  }
+  
+  .photosRover::-webkit-scrollbar-thumb:hover {
+    background: #ff0000;
+  }
+
+  .marsRovers > .photosRover{
+     width: 70%;
+  }
+
+  .marsRovers > .photosRover > .selectOption{
+   width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .marsRovers > .photosRover > .selectOption > p {
+    font-size: 3rem;
+  }
+
+  button {
+    height: 2.5rem;
+    width: 12.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: white;
+    color:#0B3D91;
+  }
+  button:hover {
+    background-color: rgb(160, 156, 156);
+cursor: pointer;
+  }
