@@ -8,3 +8,14 @@
 .imgRover > img:hover {
 scale: 1.1;
 }
+
+@media (max-width: 500px) {
+    .imgRover > img  {
+        width: 5.5rem;
+        height: 5rem;
+    }
+
+    .imgRover > img:hover {
+        scale: 1.3;
+    }
+}

@@ -100,7 +100,7 @@ const Rovers = () : JSX.Element => {
       <section className='photosRover'>
         {camera !== "" ? <GalleryLayout>
          {mars.photos.map((item) => <PhotoRover data={item} key ={item.id}/> )}   
-        </GalleryLayout> : <div className='selectOption'><p className='selectOption'>Select the options, please</p></div> }
+        </GalleryLayout> : <div className='selectOption'><p>Select the options, please</p></div> }
        
       </section>
     

@@ -98,12 +98,12 @@ gap:1rem
   }
   
   .photosRover::-webkit-scrollbar-thumb {
-    background: #ff0000;
+    background:var(--color-highlight);
     border-radius: .3125rem;
   }
   
   .photosRover::-webkit-scrollbar-thumb:hover {
-    background: #ff0000;
+    background:var(--color-highlight);
   }
 
   .marsRovers > .photosRover{
@@ -121,15 +121,24 @@ gap:1rem
     font-size: 3rem;
   }
 
-  button {
-    height: 2.5rem;
-    width: 12.5rem;
-    font-size: 1.25rem;
-    font-weight: 600;
-    background-color: white;
-    color:#0B3D91;
-  }
-  button:hover {
-    background-color: rgb(160, 156, 156);
-cursor: pointer;
+  @media (max-width: 500px) {
+    .marsRovers {
+      flex-direction:column-reverse;
+      align-items: center;
+      
+    }
+
+    .marsRovers > .photosRover {
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+
+    .marsRovers > .photosRover > .selectOption > p {
+      font-size: 1.8rem;
+    }
+
+    .marsRovers > .sectionSearch {
+      width: 100%;
+    }
+
   }

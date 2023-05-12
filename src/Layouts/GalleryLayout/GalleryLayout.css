@@ -5,8 +5,14 @@
   grid-auto-rows: minmax(10rem, auto);
   gap: 1rem;
   max-height: 65vh;
- 
- 
+}
+
+@media (max-width: 500px) {
+  .gridGalleryLayout {
+    grid-template-columns: repeat(3, 5.5rem);
+    grid-auto-rows: minmax(5rem, auto);
+    max-height: 32vh;
+  }
 }
 
   

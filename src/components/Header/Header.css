@@ -5,10 +5,11 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: sticky;
+    
 }
 
 header > a > img {
     height: 6.25rem;
     padding-left: 2rem;
 }
+

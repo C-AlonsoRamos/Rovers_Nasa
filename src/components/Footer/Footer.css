@@ -7,11 +7,21 @@ footer {
     padding-right: 1rem;
 }
 
-.footer-social {
+footer > .footer-social {
     display: flex;   
     gap:1rem
 }
 
-.footer-social > a > img {
+footer > .footer-social > a > img {
     width: 2rem;
+}
+
+@media (max-width: 500px) {
+    footer > .footer-social > a > .github {
+        filter: invert(90%);
+    }
+
+    footer > .footer-social > a > img {
+        width: 1.5rem;
+    }
 }

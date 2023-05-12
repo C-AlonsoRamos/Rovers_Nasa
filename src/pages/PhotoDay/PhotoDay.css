@@ -4,7 +4,7 @@
     margin-top: 3rem;
     gap:1rem; 
 }
-article {
+.photoDay > article {
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -15,28 +15,46 @@ article {
 }
 
 .photoDay > article > h1 {
-    font-size: 1.875rem;
+    font-size: 1.8rem;
+    font-family: var(--typography-secondary);
+    color: var(--color-highlight);
+    letter-spacing:1px;
 }
 
-.form-date {
+.photoDay > article > .form-date {
     appearance: none;
     color: #1D1D1D;
-    font-family: “Helvetica”, arial, sans-serif;
-    font-size: 18px;
-    border:1px solid #ECF0F1;
-    background:#ECF0F1;
+    font-family: var(--typography-base);
+    font-size: 1.125rem;
+    border:1px solid var(--color-secondary);
+    border-radius: 8px;
+    background:var(--color-primary);
     padding: 4px;
     display: inline-block;
     visibility: visible;
-    width: 140px;
+    width: 8.75rem;
     }
-    .form-date:focus {
+    .photoDay > article > .form-date:focus {
     color: #495057;
-    background-color: #FFFFFF;
-    border-color: #80BDFF;
+    background-color: var(--color-primary);
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    box-shadow: 0 0 0 0.2rem var(--color-secondary);
     }
-    .form-date:hover {
+    .photoDay > article > .form-date:hover {
         cursor: pointer;
+    }
+
+    @media (max-width: 500px) {
+        .photoDay{
+            align-items: center ;
+        }
+
+        .photoDay > article {
+            margin-left: 0;
+            width: 100%;
+        }
+
+        .photoDay > article > h1 {
+            font-size: 1.5rem;
+        }
     }
