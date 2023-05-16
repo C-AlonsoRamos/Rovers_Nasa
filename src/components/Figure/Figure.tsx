@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';React
 import "./Figure.css"
 import { Apod } from '../../pages/PhotoDay/PhotoDay';
 

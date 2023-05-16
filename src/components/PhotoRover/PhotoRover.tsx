@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';React
 import "./PhotoRover.css"
 import { Photo } from '../../pages/Rovers/Rovers'
 
